@@ -81,7 +81,7 @@ document.getElementById("StartButton").addEventListener("click",function(){
             time += 0.01; 
         }else{
             clearInterval(timer);
-            alert("Clear\nクリアタイムは"+ Math.floor(time*100)/100)+":\n戻るにはF5キーを押す。";
+            alert("Clear:TOPへ戻るにはF5キーを押す。\nクリアタイムは"+ Math.floor(time*100)/100);
             reset();
         }
     };
